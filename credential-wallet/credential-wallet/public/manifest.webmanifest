@@ -1,0 +1,2 @@
+{ "name": "Credential Wallet", "short_name": "Wallet", "start_url": "/",
+  "display": "standalone", "background_color": "#ffffff", "theme_color": "#0b3d91", "icons": [] }

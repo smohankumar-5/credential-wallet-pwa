@@ -1,0 +1,11 @@
+body { font-family: system-ui, sans-serif; margin: 0; padding: 1rem; color: #111; }
+h1 { color: #0b3d91; }
+.grid { list-style: none; padding: 0; display: grid; gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.card { border: 1px solid #ccd; border-radius: 8px; padding: 1rem; }
+.mask { display: flex; gap: .75rem; align-items: center; font-family: monospace; flex-wrap: wrap; }
+button { min-height: 44px; padding: 0 1rem; border: 2px solid #0b3d91; background: #fff;
+         color: #0b3d91; border-radius: 6px; cursor: pointer; }
+button:focus-visible { outline: 3px solid #f5a623; outline-offset: 2px; }
+.state.error { color: #b00020; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
